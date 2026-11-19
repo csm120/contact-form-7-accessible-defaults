@@ -111,7 +111,7 @@ function cf7adf_template( $template, $prop ) {
 					. '<p><label for="your-email">' . esc_html__( 'Your Email', 'contact-form-7-accessible-defaults' ) . ' ' . $required_text . '</label><br />' . "\n"
 					. '    [email* your-email id:your-email autocomplete:email] </p>' . "\n\n"
 					. '<fieldset>' . "\n"
-					. '<legend>' . esc_html__( 'Format', 'contact-form-7-accessible-defaults' ) . '</legend>' . "\n"
+					. '<legend>' . esc_html__( 'Format', 'contact-form-7-accessible-defaults' ) . ' ' . $required_text . '</legend>' . "\n"
 					. '[radio format id:format use_label_element "HTML" "Plain Text"]' . "\n"
 					. '</fieldset>';
 				break;
